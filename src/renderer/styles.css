@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 6vw;
+  box-sizing: border-box;
+  background: #111111;
+  color: #e6e6e6;
+  font-family: system-ui, sans-serif;
+  user-select: none;
+  overflow: hidden;
+}
+
+.timer {
+  /* Scales with the window, limited by whichever side is smaller. */
+  font-size: min(22vw, 70vh);
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.timer.running {
+  color: #4ade80;
+}
+
+.timer.stopped {
+  color: #60a5fa;
+}
