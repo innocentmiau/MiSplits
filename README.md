@@ -1,6 +1,7 @@
 # MiSplits
 
-A speedrun timer for Linux and Windows. Early days: right now it is a single timer.
+A speedrun timer for Linux and Windows. Right now it's just a timer on a
+resizable window.
 
 ## Run from source
 
